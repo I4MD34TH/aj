@@ -16,19 +16,18 @@ const IndexPage = () => (
       </div>
     </section>
     <section className={'about'}>
-      <Grid id={'about-1'} className={'about-1'}>
+      <Grid id={'about'} className={'about-1'}>
         <div>
           <h1 className={'about-heading'}><strong>A LITTLE ABOUT ME</strong></h1>
-          <p className={'about-para'}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Si alia sentit, inquam, alia loquitur, numquam intellegam quid sentiat; Virtutis, magnitudinis animi, patientiae, fortitudinis fomentis dolor mitigari solet. Id enim volumus, id contendimus, ut officii fructus sit ipsum officium.</p>
-          <p className={'about-para'}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Si alia sentit, inquam, alia loquitur, numquam intellegam quid sentiat; Virtutis, magnitudinis animi, patientiae, fortitudinis fomentis dolor mitigari solet. Id enim volumus, id contendimus, ut officii fructus sit ipsum officium.</p>
-          <p className={'about-para'}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Si alia sentit, inquam, alia loquitur, numquam intellegam quid sentiat; Virtutis, magnitudinis animi, patientiae, fortitudinis fomentis dolor mitigari solet. Id enim volumus, id contendimus, ut officii fructus sit ipsum officium.</p>
+          <p className={'about-para'}>Having Worked as the CEO and founder at Enekon, Arslan Javed has revolutionized the architectural paradigm. Armed with 7 years of exceptional experience in projection mapping and virtual reality, Arslan Javed has worked on projects all over the world and is well suited to lead a passionate team of architects and software engineers as the director of Graana artec.</p>
+          {/*<p className={'about-para'}></p>*/}
         </div>
         <img src={'../images/thumb.png'} />
       </Grid>
       <div style={{'width':'100%', }}>
         <img className={'about-1-img'} src={'../images/thumb.png'} />
       </div>
-      <div id={'about-2'} className={'about-2'}>
+      <div id={'mission'} className={'about-2'}>
         <Grid className={'child'}>
           <Row className={'text-center'}>
             <h1 className={'about-heading'}><strong>MY MISSION</strong></h1>
@@ -36,17 +35,17 @@ const IndexPage = () => (
           </Row>
           <Row>
             <Col xs={6} md={4}>
-              <img className={'img-responsive'} src={'../images/thumb-2.jpg'} />
+              <img className={'img-responsive'} src={'../images/thumb-2.png'} />
               <h4><strong>OVERSEAS PAKISTANIS RETURN</strong></h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Si alia sentit, inquam, alia loquitur, numquam intellegam quid sentiat; Virtutis, magnitudinis animi, patientiae, fortitudinis fomentis dolor mitigari solet. Id enim volumus, id contendimus, ut officii fructus sit ipsum officium.</p>
             </Col>
             <Col xs={6} md={4}>
-              <img className={'img-responsive'} src={'../images/thumb-3.jpg'} />
+              <img className={'img-responsive'} src={'../images/thumb-3.png'} />
               <h4><strong>GAMECHANGER IN REALESTATE</strong></h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Si alia sentit, inquam, alia loquitur, numquam intellegam quid sentiat; Virtutis, magnitudinis animi, patientiae, fortitudinis fomentis dolor mitigari solet. Id enim volumus, id contendimus, ut officii fructus sit ipsum officium.</p>
             </Col>
             <Col xs={6} md={4}>
-              <img className={'img-responsive'} src={'../images/thumb-4.jpg'} />
+              <img className={'img-responsive'} src={'../images/thumb-4.png'} />
               <h4><strong>AMAZON MALL</strong></h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Si alia sentit, inquam, alia loquitur, numquam intellegam quid sentiat; Virtutis, magnitudinis animi, patientiae, fortitudinis fomentis dolor mitigari solet. Id enim volumus, id contendimus, ut officii fructus sit ipsum officium.</p>
             </Col>
